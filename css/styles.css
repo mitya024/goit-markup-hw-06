@@ -666,12 +666,16 @@ body {
 .modal-filling-input:focus + .modal-filling-icon {
   fill: var(--main-focus-text-blue);
 }
+
 .form-modal-filling {
   margin-bottom: 10px;
 }
 .form-modal-filling:focus .modal-filling-icon {
   fill: var(--main-focus-text-blue);
   border-color: var(--main-focus-text-blue);
+}
+.modal-filling-label-wrap {
+  margin-bottom: 4px;
 }
 .modal-filling-comment {
   display: block;
@@ -702,9 +706,8 @@ body {
   line-height: 1.16;
   letter-spacing: 0.01em;
   text-align: left;
-  margin-bottom: 4px;
   display: block;
-  color: var(--main-text-color);
+  color: var(--color-contact);
 }
 .terms-tittle {
   font-size: 14px;
