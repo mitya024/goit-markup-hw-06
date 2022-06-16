@@ -735,6 +735,7 @@ body {
 .modal-filling-link-terms {
   color: var(--main-focus-text-blue);
   text-decoration: underline;
+  margin-left: 4px;
 }
 .modal-filling-submit {
   background-color: var(--main-focus-text-blue);
