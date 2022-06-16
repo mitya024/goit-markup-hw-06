@@ -674,6 +674,7 @@ body {
   border-color: var(--main-focus-text-blue);
 }
 .modal-filling-comment {
+  display: block;
   width: 100%;
   height: 120px;
   resize: none;
@@ -881,7 +882,7 @@ body {
 
 .modal {
   width: 528px;
-  min-height: 581px;
+  height: 581px;
   background: #ffffff;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -891,6 +892,7 @@ body {
   left: 50%;
   transform: translate(-50%, -50%) rotate(0);
   transition: transform 300ms linear;
+  padding: 40px;
 }
 .backdrop.is-hidden .modal {
   transform: rotate(45deg);
