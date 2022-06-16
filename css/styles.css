@@ -576,7 +576,7 @@ body {
   margin-right: 10px;
 }
 .subscribe-block {
-  margin-left: 93px;
+  margin-left: auto;
 }
 .subscribe-block-tittle {
   margin-bottom: 20px;
@@ -683,7 +683,6 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.01em;
-  color: rgba(117, 117, 117, 0.5);
   outline: none;
 }
 .modal-filling-comment:hover {
@@ -721,6 +720,7 @@ body {
   margin-right: 8px;
   border-radius: 2px;
 }
+
 .modal-filling-checkbox:checked + .terms-tittle::before {
   background-color: var(--main-focus-text-blue);
   background-image: url(../images/confirm.svg);
