@@ -711,6 +711,7 @@ body {
   color: var(--color-contact);
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 .terms-tittle::before {
   content: "";
